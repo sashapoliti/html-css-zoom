@@ -80,6 +80,13 @@ body {
 #toolbar {
     height: 80px;
     background-color: var(--color-dark-gray);
+    font-size: small;
+    padding: 10px;
+}
+
+/* text utility */
+.fontsize-30 {
+    font-size: 30px;
 }
 
 /* flex utility */
@@ -88,6 +95,17 @@ body {
 }
 .flex-wrap {
     flex-wrap: wrap;
+}
+.fd-column {
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.s-between {
+    justify-content: space-between;
 }
 .ac-start {
     align-content: flex-start;
