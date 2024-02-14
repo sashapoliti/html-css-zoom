@@ -32,6 +32,17 @@ body {
     height: 50px;
     position: relative;
 }
+#topbar span {
+    background-color: var(--color-light-gray);
+    font-size: small;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+#topbar div {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
 
 /* users zone */
 #users-zone {
