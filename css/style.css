@@ -18,6 +18,7 @@ body {
 	--color-light-gray: #4a4a4a;
 	--color-white: #ffffff;
 	--color-red: #d62013;
+    --color-green: #4CC800;
 }
 #app {
     width: 100%;
@@ -81,7 +82,18 @@ body {
     height: 80px;
     background-color: var(--color-dark-gray);
     font-size: small;
-    padding: 10px;
+}
+#toolbar div>div {
+    padding: 0 5px;
+}
+#toolbar>div:last-child {
+    background-color: var(--color-light-gray);
+    color: var(--color-red);
+    font-weight: bold;
+    padding: 0 15px;
+}
+.fa-share-from-square {
+    color: var(--color-green);
 }
 
 /* text utility */
