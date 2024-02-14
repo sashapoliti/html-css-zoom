@@ -92,6 +92,7 @@ body {
   height: 80px;
   background-color: var(--color-dark-gray);
   font-size: small;
+  overflow-y: auto;
 }
 #toolbar div > div {
   padding: 0 5px;
